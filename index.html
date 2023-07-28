@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textile Trading - Landing Page</title>
+  <!-- Add Bootstrap CSS link here -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: solid;
+  text-align: justify;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url('https://www.travelertrails.com/wp-content/uploads/2022/12/kandura-3.jpg'); /* Add hero background image here */
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+/* About Section */
+
+#about {
+  background-color: #f7f7f7;
+}
+
+/* Products Section */
+
+#products {
+  padding: 40px 0;
+}
+
+#products h4 {
+  margin-top: 20px;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color:#76aae2;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    min-height: 300px;
+  }
+
+  #about, #products, #contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #products .col-md-4 {
+    margin-bottom: 30px;
+  }
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"> FaithFul Textile Trading</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="#HOME">Home</a>
+          </li>
+          <a class="nav-link" href="#ABOUT">About</a>
+        </li>
+          <a class="nav-link" href="#PRODUCTS">Products</a>
+        </li>
+          <a class="nav-link" href="#PRICING">Pricing</a>
+        </li>
+          <a class="nav-link" href="#CONTACT US">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Welcome to FaithFul Textile Trading <br> LLC</h1>
+    <p class="lead">We offer high-quality textiles at competitive prices.</p>
+    <a href="#contact" class="btn btn-light btn-lg">Get in touch</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adip <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eum, beatae <br> ab optio dolor ad eveniet error minus. Alias libero et a necessitatibus <br> perferendis voluptatem voluptas est sed nihil quo. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque veritatis magni <br> provident ex libero dolores. Quis reprehenderit aperiam aut doloremque id, dolor, soluta debitis quam ad neque <br> quod ipsam labore. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Voluptatibus, consequatur <br> nisi. Illum impedit aut tenetur quas ab, eius <br> provident tempore, unde eligendi pariatur dolor  <br> corrupti optio minus! Dignissimos, at officiis.</p>
+      </div>
+      <div class="col-md-6">
+        <!-- Add an image here (replace 'image.jpg' with your image URL) -->
+        <img src="https://previews.123rf.com/images/oneinchpunch/oneinchpunch1902/oneinchpunch190200820/117528426-group-of-arabian-businessmen-with-kandura-meeting-outdoors-in-uae-middle-eastern-men-in-dubai.jpg" alt="About Us" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center">Our Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <!-- Add product image and details here -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqQIn8tOClP-FwqQjF4L0SOxHIgp6frneFVIkrO0xlt_R8n8CpDqmI3pGO-7RGzefWfwY&usqp=CAU" alt="" class="img-fluid mb-3">
+        <h4>Product 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-md-4">
+        <!-- Add product image and details here -->
+        <img src="https://sc04.alicdn.com/kf/HTB1Hl35SpXXXXbkXpXXq6xXFXXXw.jpg" alt="Product 2" class="img-fluid mb-3">
+        <h4>Product 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-md-4">
+        <!-- Add product image and details here -->
+        <img src="https://s.alicdn.com/@sc04/kf/H578ace79f34247d9a707524fc5c1922aY.png_300x300.jpg" alt="Product 3" class="img-fluid mb-3">
+        <h4>Product 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2023 Textile Trading. All rights reserved.</p>
+</footer>
+
+<!-- Add Bootstrap JS and jQuery links here -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body>
+    
+<html>
